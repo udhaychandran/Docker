@@ -2,6 +2,7 @@ package functions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.server.DriverFactory;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import utilities.DriverManager;
@@ -23,6 +24,7 @@ public class setUpTearDown {
 		
 	}
 	
+	@AfterTest
 	public void tearDown() {
 		driver.quit();
 	}
