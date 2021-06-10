@@ -5,6 +5,7 @@
     <classes>
       <class name="scenarios.Docker">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="dockerPage"/>
         </methods>

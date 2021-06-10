@@ -12,7 +12,7 @@ public class Functions {
 	public static int theadSleep = 5000;
 	
 	public void waitTime() {
-		wait = new WebDriverWait(driver, expWaitTime);
+		wait = new WebDriverWait(driver, 90);
 	}
 	
 }
