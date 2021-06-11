@@ -21,7 +21,7 @@ public class Docker extends setUpTearDown {
 		WebElement element = driver.findElement(By.xpath("//input[@value='store']"));
 		
 		element.click();
-		func.waitTime();
+//		func.waitTime();
 		System.out.println("Wait paniyachu");
 		if(element.isSelected()==true) {
 			System.out.println("Great! The link is selected");
