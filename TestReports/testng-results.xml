@@ -2,54 +2,25 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11250" started-at="2021-06-10T15:13:54Z" finished-at="2021-06-10T15:14:06Z">
+  <suite name="Default suite" duration-ms="34215" started-at="2021-06-11T14:40:39Z" finished-at="2021-06-11T14:41:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11250" started-at="2021-06-10T15:13:54Z" finished-at="2021-06-10T15:14:06Z">
+    <test name="Default test" duration-ms="34215" started-at="2021-06-11T14:40:39Z" finished-at="2021-06-11T14:41:13Z">
       <class name="scenarios.Docker">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scenarios.Docker@75c072cb]" name="setUp" is-config="true" duration-ms="8820" started-at="2021-06-10T20:43:54Z" finished-at="2021-06-10T20:44:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scenarios.Docker@75c072cb]" name="setUp" is-config="true" duration-ms="25491" started-at="2021-06-11T20:10:39Z" finished-at="2021-06-11T20:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="dockerPage()[pri:0, instance:scenarios.Docker@75c072cb]" name="dockerPage" duration-ms="77" started-at="2021-06-10T20:44:03Z" finished-at="2021-06-10T20:44:03Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='store']"}
-  (Session info: chrome=91.0.4472.77)
-  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 49 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-QB35EEE', ip: '172.26.33.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60667}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\bavie\AppData\Local\Temp\scoped_dir2108_1638831110}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 4e79f4e657941d8f4e61c5cec5f72339
-*** Element info: {Using=xpath, value=//input[@value='store']}]]>
-            </message>
+        <test-method status="FAIL" signature="dockerPage()[pri:0, instance:scenarios.Docker@75c072cb]" name="dockerPage" duration-ms="1246" started-at="2021-06-11T20:11:04Z" finished-at="2021-06-11T20:11:06Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='store']"}
-  (Session info: chrome=91.0.4472.77)
-  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 49 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-QB35EEE', ip: '172.26.33.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60667}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\Users\bavie\AppData\Local\Temp\scoped_dir2108_1638831110}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 4e79f4e657941d8f4e61c5cec5f72339
-*** Element info: {Using=xpath, value=//input[@value='store']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at scenarios.Docker.dockerPage(Docker.java:21)
+              <![CDATA[java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at functions.Functions.waitTime(Functions.java:15)
+	at scenarios.Docker.dockerPage(Docker.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -76,11 +47,11 @@ Session ID: 4e79f4e657941d8f4e61c5cec5f72339
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dockerPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scenarios.Docker@75c072cb]" name="tearDown" is-config="true" duration-ms="2248" started-at="2021-06-10T20:44:03Z" finished-at="2021-06-10T20:44:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scenarios.Docker@75c072cb]" name="tearDown" is-config="true" duration-ms="7318" started-at="2021-06-11T20:11:06Z" finished-at="2021-06-11T20:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
